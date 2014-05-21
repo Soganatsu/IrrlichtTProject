@@ -19,26 +19,31 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
+#pragma once
+
+#ifdef _WIN32
+#include <WinSock2.h>
+#include <Windows.h>
+#endif
+
 #include "include\irrlicht.h"
 
-#ifdef _LINUX
-#pragma comment(lib, "lib/Linux/Irrlicht.lib")
-#endif
-#ifdef _OSX
-#pragma comment(lib, "lib/MacOSX/Irrlicht.lib")
-#endif
-#ifdef _WIN32
-#pragma comment(lib, "lib/Win32-visualstudio/Irrlicht.lib")
-#endif
-#ifdef _WIN64
-#pragma comment(lib, "lib/Win64-visualstudio/Irrlicht.lib")
-#endif
+using namespace irr;
+using namespace core;
+using namespace video;
+using namespace scene;
+using namespace gui;
+using namespace io;
 
-// IrrlichtTProject Header
-#include "ITP_App.h"
+#ifndef _ITP_SOCKET_H_
+#define _ITP_SOCKET_H_
 
-int main()
+namespace itp
 {
+	namespace network
+	{
 
-	return 0;
-}
+	} // namespace network
+} // namespace itp
+
+#endif // _ITP_SOCKET_H_

@@ -19,26 +19,41 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
+#pragma once
 #include "include\irrlicht.h"
 
-#ifdef _LINUX
-#pragma comment(lib, "lib/Linux/Irrlicht.lib")
-#endif
-#ifdef _OSX
-#pragma comment(lib, "lib/MacOSX/Irrlicht.lib")
-#endif
-#ifdef _WIN32
-#pragma comment(lib, "lib/Win32-visualstudio/Irrlicht.lib")
-#endif
-#ifdef _WIN64
-#pragma comment(lib, "lib/Win64-visualstudio/Irrlicht.lib")
-#endif
+using namespace irr;
+using namespace core;
+using namespace video;
+using namespace scene;
+using namespace gui;
+using namespace io;
 
-// IrrlichtTProject Header
-#include "ITP_App.h"
+// IrrlichtTProject Headers
+#include "ITP_Actor.h"
+#include "ITP_AI.h"
+#include "ITP_Audio.h"
+#include "ITP_Camera.h"
+#include "ITP_Editor.h"
+#include "ITP_EventReceiver.h"
+#include "ITP_FileIO.h"
+#include "ITP_GameTrigger.h"
+#include "ITP_Interface.h"
+#include "ITP_Mesh.h"
+#include "ITP_Network.h"
+#include "ITP_Particles.h"
+#include "ITP_Physics.h"
+#include "ITP_Scene.h"
+#include "ITP_Sprite.h"
+#include "ITP_Tileset.h"
+#include "ITP_World.h"
 
-int main()
+#ifndef _ITP_APP_H_
+#define _ITP_APP_H_
+
+namespace itp
 {
 
-	return 0;
-}
+} // namespace itp
+
+#endif // _ITP_APP_H_
