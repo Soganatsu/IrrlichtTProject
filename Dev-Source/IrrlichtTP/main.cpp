@@ -21,8 +21,17 @@ SOFTWARE.
 */
 #include "include\irrlicht.h"
 
+#ifdef _LINUX
+#pragma comment(lib, "lib/Linux/Irrlicht.lib")
+#endif
+#ifdef _OSX
+#pragma comment(lib, "lib/MacOSX/Irrlicht.lib")
+#endif
 #ifdef _WIN32
 #pragma comment(lib, "lib/Win32-visualstudio/Irrlicht.lib")
+#endif
+#ifdef _WIN64
+#pragma comment(lib, "lib/Win64-visualstudio/Irrlicht.lib")
 #endif
 
 int main()
