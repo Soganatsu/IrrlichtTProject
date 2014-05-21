@@ -1,0 +1,64 @@
+﻿IrrlichtTProject - Game Design Documents
+________________
+
+
+
+
+Introduction-
+        The working title is IrrlichtTProject (Irrlicht Training Project). The goal of this is to basically create a game and release all of it’s related work for everyone to view and use as a learning reference so that they might have an easier journey into the world of game development.
+
+
+Summary-
+        In ITP (Short for IrrlichtTProject), the game is not meant to be a massive game at all, in fact it’s an extremely small game compared to what would be considered a “Full Game”. That’s not really the concern though, the concern is about covering most of the playing field and things developers would mainly run into when trying to develop their own game.
+        In this games world, you’re in a small little town where there’s almost nothing there, a few shops and a movie theatre that doesn’t have but one movie playing in it ever. It’s such a lame town that you just can’t stand it anymore and have to make your escape from this desolate land. Well the day you decide to pack up and leave, is the day the town becomes interesting because it’s been invaded by no other than, big business people looking to turn the entire town into one big factory where they’re going to be making test products for other companies.
+        You play a character that goes by the name, “Irvin Ralph Licht”. He’s a college student that doesn’t go to college, so I’d guess you’d say a 20 year old guy whose only skill in life is being able to survive this small town for so long and also having an creative imagination. Irvin is armed with whatever he can find from the factories test product supplies, which includes firearms, blades, lasers and explosives. The goal is to defeat these big business men and their factory to make them leave the town to prevent from destroying what the town from a terrible future of being slaves to the factory.
+
+
+Perspective -
+        The game is a mixture of 2D and 3D. The camera itself is at a birds eye view for most of the game, aside from a few parts where you’ll have a over shoulder view every now and then.
+                
+2D Aspects
+	Inside Buildings (Tileset)
+Factory Workers (Sprites)
+Particles (Sprites/Single Images)
+//TODO: Fill In More
+	3D Aspects
+	Outside World (Terrain)
+Building Shells (Props)
+Outside Props (Props)
+Inside Props (Props)
+//TODO: Fill In More
+	
+
+
+
+Gameplay -
+        //TODO: Fill In More
+
+
+Controls -
+        By Default the Movement is WASD (NWSE) and the use of a Mouse for pointing and clicking. Left is to select/activate triggers, Right is to Use the currently equipped item. Space Bar is to Jump. Tab is for quick dashes. Left Shift is for running. Number Keys 1,2,3,4,5,6,7,8,9,0 are for shortcuts you can set in the Hotkey Dock in game.
+
+
+        Currently I don’t plan on trying to develop this to work on a console so I’m not going to focus on anything but PC/Mac/Linux as the platform of use, so Keyboard and Mouse are what will be focused on for the controls.
+
+
+Here’s the controls listed out for readability:
+        • Movement -
+                • W - North/Up
+                • A - West/Left
+                • S - South/Down
+                • D - East/Right
+        • Item (Dock) Hotkeys - 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 (Not NumPad)
+        • Jump - Spacebar
+        • Dash - Tab
+        • Run - Hold Left Shift
+        • Select/Activate Trigger Object - Left Mouse Click
+        • Use Item/Fire Weapon - Right Mouse Click
+
+
+Missions -
+        //TODO: Fill In More
+
+
+//TODO: Add More Sections
